@@ -6,6 +6,6 @@ export interface IMiningInfo {
     difficulty: number,
     networkhashps: number,
     pooledtx: number,
-    chain: 'main' | 'test' | 'regtest',
-    warnings: string
+    chain: 'main' | 'test' | 'regtest' | 'testnet4',
+    warnings: string[]
 }
